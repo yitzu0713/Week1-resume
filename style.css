@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto', 'Noto Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*:before,
+*after {
+  box-sizing: border-size;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 80px;
+    line-height: 94px;
+    padding-bottom: 17px;
+    border-bottom:2px solid #000
+}
+
+.subTitle {
+    font-family: 'Noto Sans';
+    font-size: 32px;
+    line-height: 43px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items:center;
+    margin-bottom: 16px;
+}
+
+.subTitle span {
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 28px;
+    color: #A00404;
+    margin-left: 16px;
+}
+
+.photo {
+    width: 324px;
+    height: auto;
+    margin: 48px 0 58px 0;
+}
+
+.content {
+    font-family: 'Noto Sans';
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.pt-47 {
+    padding-top: 47px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+ }
+
+.mb-82 {
+    margin-bottom: 82px;
+}
+
+.mb-72 {
+    margin-bottom: 72px;
+}
+
+.content.education li {
+    margin-bottom: 20px;
+}
+
+.sectionTop {
+    margin-top: 24px;
+}
+
+.dark {
+    background-color: #415165;
+    color: #fff;
+    padding: 34px 0 36px 0;
+}
+
+.skill .container {
+    width: 996px;
+}
+
+.dark .subTitle {
+    font-size: 32px;
+    line-height: 45px;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 32px;
+}
+
+.dark .subTitle span {
+    color:#fff;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.dark .content {
+    font-family: 'Roboto';
+    width: 224px;
+    font-weight: 300;
+    margin: 40px auto 0 auto;
+    padding-left: 24px;
+    border-left: 1px solid #fff;
+}
+
+.dark .content li {
+    margin-bottom: 16px;
+}
+
+.work .content {
+    font-family: 'Noto Sans';
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 1px solid #000;
+}
+
+.work .content img {
+    margin: 10px 0;
+    width: 90px;
+    height: 90px;
+}
+
+.text{
+    width: 642px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contact {
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+}
+
+.icons li {
+	margin: 10px 12px;
+}
